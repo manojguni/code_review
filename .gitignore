@@ -1,0 +1,37 @@
+# General
+.DS_Store
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.*
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.pid
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.DS_Store
+
+# API Keys
+.env.local
